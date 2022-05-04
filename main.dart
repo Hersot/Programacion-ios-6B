@@ -1,0 +1,30 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(hola());
+
+
+
+
+}
+class hola extends StatelessWidget {
+  @override
+  Widget build (BuildContext context) {
+
+    return(
+        MaterialApp(
+          home: Center(child: Text('Hola mundo desde el CBTIS200')),
+
+        );
+        home:Scaffold(
+        backgroundColor: Colors.grey,
+
+    );
+  }
+  }
+
+
+
+
+
